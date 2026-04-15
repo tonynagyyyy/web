@@ -1,0 +1,48 @@
+.banner {
+  padding: 120px 0;
+  min-height: 100vh;
+  color: #fff;
+
+  background: 
+    linear-gradient(90deg, rgba(31,31,31,0.9), rgba(15,15,45,0.9)),
+    url("./assets/logos/header-img.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner h1 {
+  font-size: 55px;
+  font-weight: 800;
+}
+
+.banner .wrap {
+  color: #b892ff;
+}
+
+.banner p {
+  color: #ccc;
+  margin: 20px 0;
+  max-width: 500px;
+}
+
+.connect-btn {
+  border: 1px solid #fff;
+  padding: 10px 25px;
+  background: transparent;
+  color: #fff;
+}
+
+.connect-btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+.banner .tagline {
+  background: rgba(255,255,255,0.1);
+  padding: 8px 15px;
+  display: inline-block;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
